@@ -63,7 +63,10 @@ export default {
 			)
 			const temperatureData = await temperatureFromApi.json()
 
-			temperatureData.status = temperatureFromApi.status
+			temperatureData.status =
+				temperatureFromApi.status !== undefined
+					? temperatureFromApi.status
+					: temperatureData.status
 
 			return temperatureData
 		},

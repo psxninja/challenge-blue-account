@@ -1,6 +1,7 @@
 # Challenge: Frontend Conta Azul 🦄
 
 ## About the challenge 📘
+
 > - Show temperature of 3 cities 📌 Nuuk/GL, Urubici/BR and Nairobi/KE.
 > - Temperature must be displayed in degrees Celsius.
 > - Humidity must be displayed in percentage.
@@ -20,11 +21,19 @@ https://psxninja.github.io/challenge-blue-account
 > - NodeJS https://nodejs.org/
 
 ## Project setup dev 💻
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
+```
+
+### Development tests
+
+```
+npm run test:unit
 ```
