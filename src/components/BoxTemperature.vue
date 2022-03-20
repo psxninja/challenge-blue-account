@@ -169,7 +169,9 @@ export default {
 }
 .boxTemperature__temp {
 	position: relative;
-	display: inline-block;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 	height: 140px;
 	font-size: 9rem;
 	font-weight: 600;
